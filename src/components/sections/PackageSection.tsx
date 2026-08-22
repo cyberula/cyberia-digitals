@@ -7,18 +7,18 @@ export function PackageSection() {
         {/* Main Banner for All-Inclusive Pack */}
         <div className="bg-black/50 p-4 sm:p-6 border-l-2 border-r-2 border-cyberia-orange">
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl font-neuropol mb-2 text-cyberia-orange">
-              Pack <span className="text-white">cyberia</span>
+            <h2 className="text-2xl md:text-3xl font-neuropol mb-2">
+              <span className="text-cyberia-orange">Pack </span>
+              <span className="text-white">cyberia </span>
               <span className="italic ml-2">all&#8209;inclusive</span>
             </h2>
             <p className="font-roboto-mono text-sm text-cyberia-orange/80 max-w-3xl mx-auto mb-6">
-              Con el alojamiento y desarrollo de tu Web, podés obtener todo lo demás, tratando con una sola persona
-            </p>
+              Con el alojamiento y desarrollo de tu Web, podés obtener todo lo demás</p>
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 mt-6">
-            <div className="flex-1 min-w-[280px] max-w-md">
-              <ul className="space-y-1 font-roboto-mono text-sm">
+            <div className="flex-1 min-w-[280px] max-w-md flex justify-center">
+              <ul className="space-y-1 font-roboto-mono text-sm text-left">
                 {/* First Column */}
                 <li className="flex items-start">
                   <span className="text-cyberia-orange mr-2">+</span>
@@ -43,8 +43,8 @@ export function PackageSection() {
               </ul>
             </div>
 
-            <div className="flex-1 min-w-[280px] max-w-md">
-              <ul className="space-y-1 font-roboto-mono text-sm">
+            <div className="flex-1 min-w-[280px] max-w-md flex justify-center">
+              <ul className="space-y-1 font-roboto-mono text-sm text-left">
                 {/* Second Column */}
                 <li className="flex items-start">
                   <span className="text-cyberia-orange mr-2">+</span>
