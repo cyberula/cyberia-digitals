@@ -12,7 +12,7 @@ export function SupportSection() {
             <p className="font-roboto-mono text-sm text-cyberia-orange/80 leading-relaxed">
               Olvidate de idas y vueltas con mil e-mails o chatbots AI por cada pequeño bache con cada uno de tus
               servicios digitales y técnicos. A cada uno de nuestros clientes se les asigna un único asesor,
-              de carne y hueso, on-call. Molestalo.
+              de carne y hueso, on-call.
             </p>
           </div>
 

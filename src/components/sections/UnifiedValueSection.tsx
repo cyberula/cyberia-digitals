@@ -12,7 +12,7 @@ const unifiedValues: UnifiedValueItem[] = [
   {
     title: "Soporte, por cualquier cosa, cualquier día",
     description:
-      "Olvidate de idas y vueltas con mil e-mails o chatbots AI por cada pequeño bache con cada uno de tus servicios digitales y técnicos. A cada uno de nuestros clientes se les asigna un único asesor, de carne y hueso, on-call. Molestalo.",
+      "Olvidate de idas y vueltas con mil e-mails o chatbots AI por cada pequeño bache con cada uno de tus servicios digitales y técnicos. A cada uno de nuestros clientes se les asigna un único asesor, de carne y hueso, on-call.",
     imageSrc: "/assets/4088045676.png",
     imageAlt: "Soporte técnico",
     reverse: false,

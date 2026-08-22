@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function ContactSection() {
   return (
-    <section className="relative w-full min-h-[35vh] md:min-h-[50vh] py-8 md:py-10 overflow-hidden bg-gradient-to-b from-black/95 to-cyberia-black flex items-center">
+    <section className="relative w-full min-h-[66vh] py-8 md:py-10 overflow-hidden bg-gradient-to-b from-black/95 to-cyberia-black flex items-center">
       <div
         className="absolute inset-0 opacity-20"
         style={{
@@ -21,9 +21,9 @@ export function ContactSection() {
               href="http://wa.me/5493512868281"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-cyberia-orange p-3 md:p-4 font-neuropol transition-colors text-center flex flex-col items-center justify-center h-[110px] md:h-[140px] hover:bg-cyberia-orange hover:text-black border border-cyberia-orange hover:border-black w-fit"
+              className="bg-black text-cyberia-orange px-5 py-3 font-neuropol transition-colors text-center inline-flex items-center justify-center hover:bg-cyberia-orange hover:text-black border border-cyberia-orange hover:border-black w-fit"
             >
-              <span className="text-base md:text-2xl">CHARLEMOS HOY &gt;</span>
+              <span className="text-base md:text-2xl whitespace-nowrap">CHARLEMOS HOY &gt;</span>
             </Link>
           </div>
         </div>

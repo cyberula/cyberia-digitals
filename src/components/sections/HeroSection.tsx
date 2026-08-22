@@ -17,7 +17,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="w-full min-h-[70vh] md:min-h-[90vh] py-16 md:py-28 relative overflow-hidden flex items-center">
+    <section className="w-full min-h-[70vh] md:min-h-[90vh] py-16 md:py-28 relative overflow-hidden flex flex-col">
       {/* Background video */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-cyberia-black/70 z-[1]" />
@@ -39,7 +39,7 @@ export function HeroSection() {
         </video>
       </div>
 
-      <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
+      <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center pb-24 md:pb-28">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-neuropol font-extrabold text-cyberia-orange mb-8 leading-none">
             <span className="block py-2">Un servicio</span>
@@ -64,13 +64,13 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
             >
-              HABLAR HOY &gt;
+              CONTACTANOS &gt;
             </Link>
           </div>
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 z-10">
+      <div className="absolute bottom-0 left-0 right-0 z-10 w-full">
         <ClientsSection />
       </div>
     </section>
