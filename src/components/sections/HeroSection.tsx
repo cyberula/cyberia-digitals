@@ -29,9 +29,10 @@ export function HeroSection() {
           className="object-cover w-full h-full"
         >
           <source
-            src="https://ext.same-assets.com/1402548162/1341898313.webm"
+            src="/assets/1341898313.webm"
             type="video/webm"
           />
+          {/* Poster fallback for environments that block video */}
           {/* Fallback for browsers that don't support webm */}
           Your browser does not support the video tag.
         </video>
@@ -39,15 +40,14 @@ export function HeroSection() {
 
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-neuropol text-cyberia-orange mb-8 leading-tight">
-            <span className="block py-2">Un servicio all-inclusive,</span>
-            <span className="block py-2">un equipo in-house,</span>
-            <span className="block py-2">un asesor on-call</span>
+          <h1 className="text-4xl md:text-4xl lg:text-5xl font-neuropol text-cyberia-orange mb-8 leading-tight">
+            <span className="block py-2">Un servicio all&#8209;inclusive,</span>
+            <span className="block py-2">un asesor on&#8209;call</span>
           </h1>
 
           <p className="text-sm md:text-base font-roboto-mono mb-10 text-cyberia-orange/80 max-w-2xl mx-auto">
-            Powerhouse de desarrollo y productora de contenido. Ahorra tiempo, dinero y dolores de cabeza con nuestros devs, diseñadores, redactores y soporte técnico 100% humano para todas las aristas de tu proyecto.
-          </p>
+           Ahorra tiempo, dinero y dolores de cabeza con nuestros devs, diseñadores, redactores y soporte técnico 100% humano.
+</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link

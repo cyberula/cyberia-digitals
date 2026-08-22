@@ -10,16 +10,15 @@ export function InevitableSection() {
               Es inevitable, relajate y gozá
             </h2>
             <p className="font-roboto-mono text-sm text-cyberia-orange/80 leading-relaxed">
-              Trabajamos con métodos testeados y medibles para optimizar los procesos técnicos,
-              digitales y de comunicación. Automatizando lo automatizable y humanizando lo humano,
-              los resultados récord llegan en tiempo récord.
+              Trabajamos con métodos testeados y medibles para optimizar los procesos técnicos y operativos. Automatizando lo automatizable y humanizando lo humano,
+              los resultados reales llegan en tiempo récord.
             </p>
           </div>
 
           <div className="flex justify-center">
             <div className="relative w-full h-[200px] md:h-[280px]">
               <Image
-                src="https://ext.same-assets.com/2683057208/215325880.png"
+                src="/assets/215325880.png"
                 alt="Es inevitable"
                 fill
                 className="object-contain"

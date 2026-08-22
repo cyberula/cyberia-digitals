@@ -8,7 +8,7 @@ export function OneServiceSection() {
           <div className="flex justify-center order-2 md:order-1">
             <div className="relative w-full h-[200px] md:h-[280px]">
               <Image
-                src="https://ext.same-assets.com/1459634707/2324792894.png"
+                src="/assets/2324792894.png"
                 alt="Un solo servicio"
                 fill
                 className="object-contain"
@@ -23,7 +23,7 @@ export function OneServiceSection() {
             <p className="font-roboto-mono text-sm text-cyberia-orange/80 leading-relaxed">
               Decile basta al teléfono descompuesto entre freelancers, productoras, diseñadores,
               desarrolladores y publicistas. Nuestro equipo colabora en conjunto en todos los aspectos
-              de tu proyecto para darle una solución final a la distonía.
+              de tu proyecto para darle una solución final.
             </p>
           </div>
         </div>

@@ -26,7 +26,7 @@ export function StaticOverlay() {
           className="object-cover w-full h-full"
         >
           <source
-            src="https://ext.same-assets.com/2218019939/842501609.webm"
+            src="/assets/842501609.webm"
             type="video/webm"
           />
         </video>

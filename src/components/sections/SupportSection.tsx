@@ -19,7 +19,7 @@ export function SupportSection() {
           <div className="flex justify-center">
             <div className="relative w-full h-[200px] md:h-[280px]">
               <Image
-                src="https://ext.same-assets.com/3559553694/4088045676.png"
+                src="/assets/4088045676.png"
                 alt="Soporte técnico"
                 fill
                 className="object-contain"

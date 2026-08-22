@@ -12,7 +12,7 @@ export function ContactSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
             <Link
-              href="http://wa.me/5492664323907"
+              href="http://wa.me/5493512868281"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-cyberia-orange text-black p-4 font-neuropol transition-colors text-center flex flex-col items-center justify-center h-[140px] hover:bg-black hover:text-cyberia-orange border border-transparent hover:border-cyberia-orange"

@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ClientBody from "./ClientBody";
-import
-import Home from
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cyberia.com.ar"),
   title: "Cyberia Digitals – Servicios Digitales y Productora Multimedia",
   description: "Powerhouse de desarrollo y productora de contenido. Ahorra tiempo, dinero y dolores de cabeza con nuestros devs, diseñadores, redactores y soporte técnico 100% humano para todas las aristas de tu proyecto.",
   icons: {
     icon: [
       {
-        url: "https://ext.same-assets.com/2644905851/3252361240.png",
-        href: "https://ext.same-assets.com/2644905851/3252361240.png",
+        url: "/assets/3252361240.png",
+        href: "/assets/3252361240.png",
       },
     ],
   },
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Cyberia Digitals",
     images: [
       {
-        url: "https://ext.same-assets.com/2644905851/3252361240.png",
+        url: "/assets/3252361240.png",
         width: 800,
         height: 600,
         alt: "Cyberia Digitals Logo",
@@ -44,9 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="dark">
-      <ClientBody>
+      <body className="antialiased">
         {children}
-      </ClientBody>
+        <ClientBody />
+      </body>
     </html>
   );
 }
