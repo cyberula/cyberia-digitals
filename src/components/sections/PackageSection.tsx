@@ -68,7 +68,7 @@ export function PackageSection() {
 
           <div className="text-center mt-8">
             <Link
-              href="http://wa.me/5492664323907"
+              href="https://wa.me/5493512868281?text=%E2%80%8E%C2%A1Hola!%20Quiero%20contratar%20el%20pack%20Cyberia%20_all-inclusive_."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-cyberia-orange text-black py-2 px-8 font-neuropol transition-colors inline-block hover:bg-black hover:text-cyberia-orange border border-transparent hover:border-cyberia-orange"
