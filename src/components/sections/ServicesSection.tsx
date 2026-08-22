@@ -102,7 +102,7 @@ export function ServicesSection() {
         {activeTab === 3 && (
           <div className="mt-4 text-center">
             <p className="text-cyberia-orange font-neuropol text-sm md:text-base">
-              Fotografía y filmación solo en Córdoba
+              Fotografía y filmación solo en Córdoba y AMBA. Para otras provincias, consultar disponibilidad y costos de traslado.
             </p>
           </div>
         )}
