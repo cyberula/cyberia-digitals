@@ -18,7 +18,6 @@ export function ContactSection() {
               className="bg-cyberia-orange text-black p-4 font-neuropol transition-colors text-center flex flex-col items-center justify-center h-[140px] hover:bg-black hover:text-cyberia-orange border border-transparent hover:border-cyberia-orange"
             >
               <span className="text-base md:text-lg mb-3">MANDANOS UN WPP</span>
-              <Phone className="w-5 h-5 md:w-6 md:h-6" />
             </Link>
 
             <Link
@@ -26,7 +25,6 @@ export function ContactSection() {
               className="bg-cyberia-orange text-black p-4 font-neuropol transition-colors text-center flex flex-col items-center justify-center h-[140px] hover:bg-black hover:text-cyberia-orange border border-transparent hover:border-cyberia-orange"
             >
               <span className="text-base md:text-lg mb-3">ENVIANOS UN MAIL</span>
-              <Mail className="w-5 h-5 md:w-6 md:h-6" />
             </Link>
           </div>
         </div>

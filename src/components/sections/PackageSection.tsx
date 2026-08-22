@@ -9,7 +9,7 @@ export function PackageSection() {
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-neuropol mb-2 text-cyberia-orange">
               Pack <span className="text-white">cyberia</span>
-              <span className="italic ml-2">all-inclusive</span>
+              <span className="italic ml-2">all&#8209;inclusive</span>
             </h2>
             <p className="font-roboto-mono text-sm text-cyberia-orange/80 max-w-3xl mx-auto mb-6">
               Con el alojamiento y desarrollo de tu Web, podés obtener todo lo demás, tratando con una sola persona
