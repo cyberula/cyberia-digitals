@@ -55,7 +55,7 @@ export function HeroSection() {
               href="#mas"
               className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
             >
-              QUIERO SABER MÁS
+              SABER MÁS &gt;
             </Link>
             <Link
               href="http://wa.me/5492664323907"
@@ -63,7 +63,7 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
             >
-              QUIERO HABLAR HOY
+              HABLAR HOY &gt;
             </Link>
           </div>
         </div>
