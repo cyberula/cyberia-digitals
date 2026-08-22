@@ -40,7 +40,7 @@ export function HeroSection() {
 
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-4xl lg:text-5xl font-neuropol text-cyberia-orange mb-8 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-neuropol font-extrabold text-cyberia-orange mb-8 leading-none">
             <span className="block py-2">Un servicio</span>
             <span className="block py-2">Un equipo</span>
             <span className="block py-2">Un asesor</span>
@@ -58,7 +58,7 @@ export function HeroSection() {
               SABER MÁS &gt;
             </Link>
             <Link
-              href="http://wa.me/5492664323907"
+              href="http://wa.me/5493512868281"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
