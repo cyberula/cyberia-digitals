@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import { ClientsSection } from "@/components/sections/ClientsSection";
 
 export function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -16,7 +17,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="w-full py-20 relative overflow-hidden">
+    <section className="w-full min-h-[70vh] md:min-h-[90vh] py-16 md:py-28 relative overflow-hidden flex items-center">
       {/* Background video */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-cyberia-black/70 z-[1]" />
@@ -38,7 +39,7 @@ export function HeroSection() {
         </video>
       </div>
 
-      <div className="container mx-auto relative z-10">
+      <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-neuropol font-extrabold text-cyberia-orange mb-8 leading-none">
             <span className="block py-2">Un servicio</span>
@@ -67,6 +68,10 @@ export function HeroSection() {
             </Link>
           </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-0 left-0 right-0 z-10">
+        <ClientsSection />
       </div>
     </section>
   );

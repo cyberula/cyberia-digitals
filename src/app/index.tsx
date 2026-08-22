@@ -1,7 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
-import { ClientsSection } from "@/components/sections/ClientsSection";
 import { PackageSection } from "@/components/sections/PackageSection";
 import { UnifiedValueSection } from "@/components/sections/UnifiedValueSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
@@ -14,7 +13,6 @@ export default function Home() {
 
       <div className="flex-1">
         <HeroSection />
-        <ClientsSection />
         <PackageSection />
         <UnifiedValueSection />
         <ServicesSection />

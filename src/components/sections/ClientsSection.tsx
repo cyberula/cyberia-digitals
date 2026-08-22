@@ -73,7 +73,7 @@ const clientLogos = [
 
 export function ClientsSection() {
   return (
-    <section className="w-full py-8 bg-black overflow-hidden">
+    <section className="w-full py-8 bg-transparent overflow-hidden">
       <div className="max-w-full relative">
         <div className="slider-mask">
           <div className="slider-track">
