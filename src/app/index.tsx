@@ -3,9 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ClientsSection } from "@/components/sections/ClientsSection";
 import { PackageSection } from "@/components/sections/PackageSection";
-import { SupportSection } from "@/components/sections/SupportSection";
-import { OneServiceSection } from "@/components/sections/OneServiceSection";
-import { InevitableSection } from "@/components/sections/InevitableSection";
+import { UnifiedValueSection } from "@/components/sections/UnifiedValueSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 
@@ -18,9 +16,7 @@ export default function Home() {
         <HeroSection />
         <ClientsSection />
         <PackageSection />
-        <SupportSection />
-        <OneServiceSection />
-        <InevitableSection />
+        <UnifiedValueSection />
         <ServicesSection />
         <ContactSection />
       </div>

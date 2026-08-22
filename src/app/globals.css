@@ -93,6 +93,15 @@
   .font-roboto-mono {
     font-family: 'Roboto Mono', monospace;
   }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* Infinite slider animation */

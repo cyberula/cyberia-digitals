@@ -71,12 +71,12 @@ export function ServicesSection() {
         </h2>
 
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center mb-6 border-b border-cyberia-orange/20">
+        <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-2 md:gap-0 mb-6 overflow-x-auto md:overflow-visible border-b border-cyberia-orange/20 pb-2 md:pb-0 touch-pan-x no-scrollbar">
           {services.map((service, index) => (
             <button
               key={index}
               onClick={() => setActiveTab(index)}
-              className={`px-4 md:px-6 py-2 md:py-3 font-neuropol text-xs md:text-sm transition-colors ${
+              className={`flex-none whitespace-nowrap px-4 md:px-6 py-2 md:py-3 font-neuropol text-xs md:text-sm transition-colors ${
                 activeTab === index
                   ? "text-cyberia-orange border-b-2 border-cyberia-orange"
                   : "text-cyberia-orange/60 hover:text-cyberia-orange/80"
