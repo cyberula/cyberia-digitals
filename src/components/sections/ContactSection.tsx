@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function ContactSection() {
   return (
-    <section className="relative w-full min-h-[66vh] py-8 md:py-10 overflow-hidden bg-gradient-to-b from-black/95 to-cyberia-black flex items-center">
+    <section className="relative w-full min-h-[85vh] md:min-h-[90vh] py-8 md:py-10 overflow-hidden bg-gradient-to-b from-black/95 to-cyberia-black flex items-center">
       <div
         className="absolute inset-0 opacity-20"
         style={{

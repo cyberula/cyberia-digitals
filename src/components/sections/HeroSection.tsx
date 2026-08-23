@@ -17,7 +17,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="w-full min-h-[70vh] md:min-h-[90vh] py-16 md:py-28 relative overflow-hidden flex flex-col">
+    <section className="w-full min-h-[82vh] sm:min-h-[84vh] md:min-h-[90vh] py-12 sm:py-16 md:py-28 relative overflow-hidden flex flex-col">
       {/* Background video */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-cyberia-black/70 z-[1]" />
@@ -51,10 +51,10 @@ export function HeroSection() {
            Ahorra tiempo, dinero y dolores de cabeza con nuestros devs, diseñadores, redactores y soporte técnico 100% humano.
 </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-row gap-2 sm:gap-4 justify-center items-center whitespace-nowrap">
             <Link
               href="#mas"
-              className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
+              className="bg-cyberia-orange text-black py-2 px-3 sm:px-6 font-neuropol transition-colors text-[11px] sm:text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange whitespace-nowrap"
             >
               SABER MÁS &gt;
             </Link>
@@ -62,7 +62,7 @@ export function HeroSection() {
               href="http://wa.me/5493512868281"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-cyberia-orange text-black py-2 px-6 font-neuropol transition-colors text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange"
+              className="bg-cyberia-orange text-black py-2 px-3 sm:px-6 font-neuropol transition-colors text-[11px] sm:text-lg border border-transparent hover:bg-black hover:text-cyberia-orange hover:border-cyberia-orange whitespace-nowrap"
             >
               CONTACTANOS &gt;
             </Link>
