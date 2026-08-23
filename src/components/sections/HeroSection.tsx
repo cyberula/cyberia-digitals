@@ -42,8 +42,9 @@ export function HeroSection() {
       <div className="container mx-auto relative z-10 flex-1 flex items-center justify-center pb-24 md:pb-28">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-neuropol font-extrabold text-cyberia-orange mb-8 leading-none">
-            <span className="block py-2">Un equipo in-house</span>
-            <span className="block py-2">Un asesor on-call </span>
+            <span className="block py-2">Un servicio</span>
+            <span className="block py-2">Un equipo</span>
+            <span className="block py-2">Un asesor</span>
           </h1>
 
           <p className="text-sm md:text-base font-roboto-mono mb-10 text-cyberia-orange/80 max-w-2xl mx-auto">
