@@ -70,42 +70,53 @@ export function ServicesSection() {
           Nuestros Servicios
         </h2>
 
-        {/* Tabs */}
-        <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-2 md:gap-0 mb-6 overflow-x-auto md:overflow-visible border-b border-cyberia-orange/20 pb-2 md:pb-0 touch-pan-x no-scrollbar">
-          {services.map((service, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveTab(index)}
-              className={`flex-none whitespace-nowrap px-4 md:px-6 py-2 md:py-3 font-neuropol text-xs md:text-sm transition-colors ${
-                activeTab === index
-                  ? "text-cyberia-orange border-b-2 border-cyberia-orange"
-                  : "text-cyberia-orange/60 hover:text-cyberia-orange/80"
-              }`}
-            >
-              {service.title}
-            </button>
-          ))}
-        </div>
+        <div className="space-y-3">
+          {services.map((service, index) => {
+            const isOpen = activeTab === index;
 
-        {/* Content */}
-        <div className="bg-black/40 p-4 md:p-6 border-l-2 border-cyberia-orange">
-          <ul className="space-y-1 font-roboto-mono text-sm">
-            {services[activeTab].items.map((item, index) => (
-              <li key={index} className="flex items-start">
-                <span className="text-cyberia-orange mr-2 mt-1">•</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+            return (
+              <div
+                key={index}
+                className={`overflow-hidden border transition-all duration-200 ${
+                  isOpen
+                    ? "border-cyberia-orange bg-black/35"
+                    : "border-cyberia-orange/20 bg-black/35 hover:border-cyberia-orange/40"
+                }`}
+              >
+                <button
+                  onClick={() => setActiveTab(index)}
+                  className={`flex w-full items-center justify-between px-4 py-3 md:px-5 md:py-4 font-neuropol text-sm md:text-base text-left transition-colors ${
+                    isOpen ? "text-cyberia-orange" : "text-cyberia-orange/75"
+                  }`}
+                  aria-expanded={isOpen}
+                >
+                  <span>{service.title}</span>
+                  <span className={`text-xl leading-none transition-transform ${isOpen ? "rotate-180" : "rotate-0"}`}>
+                    {isOpen ? "−" : "+"}
+                  </span>
+                </button>
 
-        {activeTab === 3 && (
-          <div className="mt-4 text-center">
-            <p className="text-cyberia-orange font-neuropol text-sm md:text-base">
-              Fotografía y filmación solo en Córdoba y AMBA. Para otras provincias, consultar disponibilidad y costos de traslado.
-            </p>
-          </div>
-        )}
+                {isOpen && (
+                  <div className="border-t border-cyberia-orange/15 p-4 md:p-6">
+                    <ul className="space-y-1 font-roboto-mono text-sm md:text-base">
+                      {service.items.map((item, itemIndex) => (
+                        <li key={itemIndex} className="flex items-start">
+                          <span className="text-cyberia-orange mr-2 mt-1">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    {index === 3 && (
+                      <p className="mt-4 text-cyberia-orange font-neuropol text-xs md:text-sm leading-relaxed">
+                        Fotografía y filmación solo en Córdoba y AMBA. Para otras provincias, consultar disponibilidad y costos de traslado.
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
